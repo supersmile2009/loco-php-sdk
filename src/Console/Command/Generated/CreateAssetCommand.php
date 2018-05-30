@@ -22,7 +22,7 @@ class CreateAssetCommand extends Command
             ->setName( 'loco:create:asset' )
             ->setMethod( 'createAsset' )
             ->setDescription( 'Add a new translatable asset' )
-            ->addOption('name','',InputOption::VALUE_REQUIRED,'Source text or just a name describing what the asset is',null)
+            ->addOption('name','',InputOption::VALUE_OPTIONAL,'Source text or just a name describing what the asset is',null)
             ->addOption('id','',InputOption::VALUE_REQUIRED,'Optional machine friendly ID if you want something specific','')
             ->addOption('type','',InputOption::VALUE_REQUIRED,'Media type, defaults to plain "text"','text')
             ->addOption('context','',InputOption::VALUE_REQUIRED,'Optional context descriptor',null)

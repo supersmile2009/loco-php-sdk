@@ -1031,7 +1031,7 @@
                 "name": {
                     "name": "name",
                     "type": "string",
-                    "required": true,
+                    "required": false,
                     "description": "Source text or just a name describing what the asset is",
                     "location": "formParam"
                 },
